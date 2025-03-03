@@ -8,7 +8,7 @@ on:
 
 jobs:
   call-pipeline2:
-    uses: ezydevops473/pipeline2/.github/workflows/pipeline2.yml@main
+    uses: ezydevops473/pipeline2/.github/workflows/blank.yml@main
     with:
       username: "ezydevops473"
     secrets:
