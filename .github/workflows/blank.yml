@@ -10,6 +10,6 @@ jobs:
   call-pipeline2:
     uses: ezydevops473/pipeline2/.github/workflows/pipeline2.yml@main
     with:
-      username: "Sudha"
+      username: "ezydevops473"
     secrets:
       token: ${{ secrets.MY_SECRET_TOKEN }}
